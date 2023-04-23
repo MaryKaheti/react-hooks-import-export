@@ -1,3 +1,6 @@
+// import React from "react";
+// import MesaVerde from "./MesaVerde";
+
 const trees = "Aspen and Pine";
 
 function wildlife() {
@@ -8,4 +11,4 @@ function elevation() {
   console.log("9583 ft");
 }
 
-export { trees, wildlife };
+export default { trees, wildlife, elevation};
